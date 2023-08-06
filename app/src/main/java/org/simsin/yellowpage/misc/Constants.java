@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage.misc;
+package org.simsin.yellowpage.misc;
 
 import android.net.Uri;
 
@@ -76,11 +76,11 @@ public class Constants {
     public static final String NOTIFICATION_CHANNEL_DATABASE_STATUS = "database_status";
 
 
-    public static final Uri YELLOWPAGE_PROVIDER_URI = Uri.parse("content://org.exthmui.yellowpage.YellowPageProvider");
+    public static final Uri YELLOWPAGE_PROVIDER_URI = Uri.parse("content://org.simsin.yellowpage.YellowPageProvider");
     public static final Uri YELLOWPAGE_PROVIDER_URI_FORWARD = Uri.withAppendedPath(YELLOWPAGE_PROVIDER_URI, "forward");
     public static final Uri YELLOWPAGE_PROVIDER_URI_REVERSE = Uri.withAppendedPath(YELLOWPAGE_PROVIDER_URI, "reverse");
 
-    public static final Uri PHONE_NUMBER_TAG_PROVIDER_URI = Uri.parse("content://org.exthmui.yellowpage.PhoneNumberTagProvider");
+    public static final Uri PHONE_NUMBER_TAG_PROVIDER_URI = Uri.parse("content://org.simsin.yellowpage.PhoneNumberTagProvider");
     public static final Uri PHONE_NUMBER_TAG_PROVIDER_URI_EDIT = Uri.withAppendedPath(YELLOWPAGE_PROVIDER_URI, "edit");
     public static final Uri PHONE_NUMBER_TAG_PROVIDER_URI_QUERY = Uri.withAppendedPath(YELLOWPAGE_PROVIDER_URI, "query");
 

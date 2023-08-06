@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage.helpers;
+package org.simsin.yellowpage.helpers;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -23,7 +23,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 
-import org.exthmui.yellowpage.models.PhoneNumberInfo;
+import org.simsin.yellowpage.models.PhoneNumberInfo;
 
 public class PhoneNumberTagDbHelper extends SQLiteOpenHelper {
 

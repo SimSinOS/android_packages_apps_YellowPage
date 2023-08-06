@@ -4,7 +4,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "org.exthmui.yellowpage"
+        applicationId "org.simsin.yellowpage"
         minSdkVersion 31
         targetSdkVersion 33
         versionCode 1

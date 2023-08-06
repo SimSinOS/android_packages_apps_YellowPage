@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage.services;
+package org.simsin.yellowpage.services;
 
 import android.app.Service;
 import android.content.Intent;
@@ -27,13 +27,13 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import org.exthmui.yellowpage.R;
-import org.exthmui.yellowpage.helpers.PhoneNumberTagDbHelper;
-import org.exthmui.yellowpage.helpers.YellowPageDbHelper;
-import org.exthmui.yellowpage.misc.Constants;
-import org.exthmui.yellowpage.models.ContactData;
-import org.exthmui.yellowpage.utils.JsonUtil;
-import org.exthmui.yellowpage.utils.NotificationUtil;
+import org.simsin.yellowpage.R;
+import org.simsin.yellowpage.helpers.PhoneNumberTagDbHelper;
+import org.simsin.yellowpage.helpers.YellowPageDbHelper;
+import org.simsin.yellowpage.misc.Constants;
+import org.simsin.yellowpage.models.ContactData;
+import org.simsin.yellowpage.utils.JsonUtil;
+import org.simsin.yellowpage.utils.NotificationUtil;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

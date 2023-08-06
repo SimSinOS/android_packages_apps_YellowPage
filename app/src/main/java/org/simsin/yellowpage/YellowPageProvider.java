@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage;
+package org.simsin.yellowpage;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -26,10 +26,10 @@ import android.net.Uri;
 
 import androidx.preference.PreferenceManager;
 
-import org.exthmui.yellowpage.helpers.YellowPageDbHelper;
-import org.exthmui.yellowpage.misc.Constants;
-import org.exthmui.yellowpage.models.ContactData;
-import org.exthmui.yellowpage.models.ContactExtra;
+import org.simsin.yellowpage.helpers.YellowPageDbHelper;
+import org.simsin.yellowpage.misc.Constants;
+import org.simsin.yellowpage.models.ContactData;
+import org.simsin.yellowpage.models.ContactExtra;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +38,7 @@ public class YellowPageProvider extends ContentProvider {
 
     public static final String TAG = "YellowPageProvider";
 
-    public static final String PROVIDER_NAME = "org.exthmui.yellowpage.YellowPageProvider";
+    public static final String PROVIDER_NAME = "org.simsin.yellowpage.YellowPageProvider";
 
     public static final String PROVIDER_PATH_FORWARD = "forward";
     public static final String PROVIDER_PATH_REVERSE = "reverse";

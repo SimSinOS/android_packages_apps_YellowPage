@@ -14,22 +14,21 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage;
+package org.simsin.yellowpage.lookup;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.Context;
+import androidx.annotation.WorkerThread;
 
-import android.content.Intent;
-import android.os.Bundle;
+import org.simsin.yellowpage.models.PhoneNumberInfo;
 
-public class MainActivity extends AppCompatActivity {
+public interface PhoneNumberLookup {
+    @WorkerThread
+    public abstract PhoneNumberInfo lookup(Context context, String number);
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Intent intent = new Intent();
-        intent.setClass(this, SettingsActivity.class);
-        startActivity(intent);
-        finish();
-    }
+    /**
+     * 检查这个查询接口是否支持该地区电话号码
+     * @param code 国际区号
+     * @return
+     */
+    public abstract boolean checkRegion(long code);
 }

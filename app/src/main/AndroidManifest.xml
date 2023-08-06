@@ -16,14 +16,14 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.exthmui.yellowpage">
+    package="org.simsin.yellowpage">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
 
     <permission
-        android:name="org.exthmui.yellowpage.READ_YELLOWPAGES"
+        android:name="org.simsin.yellowpage.READ_YELLOWPAGES"
         android:label="@string/perm_allow_read_yellowpage"
         android:protectionLevel="normal" />
 
@@ -45,12 +45,12 @@
 
         <provider
             android:name=".PhoneNumberTagProvider"
-            android:authorities="org.exthmui.yellowpage.PhoneNumberTagProvider"
+            android:authorities="org.simsin.yellowpage.PhoneNumberTagProvider"
             android:enabled="true"
             android:exported="true" />
 
         <service
-            android:name=".services.exTHmCallScreeningService"
+            android:name=".services.SimSinCallScreeningService"
             android:permission="android.permission.BIND_SCREENING_SERVICE"
             android:exported="true">
             <intent-filter>
@@ -60,10 +60,10 @@
 
         <provider
             android:name=".YellowPageProvider"
-            android:authorities="org.exthmui.yellowpage.YellowPageProvider"
+            android:authorities="org.simsin.yellowpage.YellowPageProvider"
             android:enabled="true"
             android:exported="true"
-            android:permission="org.exthmui.yellowpage.READ_YELLOWPAGES" />
+            android:permission="org.simsin.yellowpage.READ_YELLOWPAGES" />
 
         <service
             android:name=".services.DatabaseManageService"

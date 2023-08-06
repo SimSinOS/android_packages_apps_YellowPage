@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage;
+package org.simsin.yellowpage;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -25,14 +25,14 @@ import android.net.Uri;
 
 import androidx.preference.PreferenceManager;
 
-import org.exthmui.yellowpage.helpers.PhoneNumberTagDbHelper;
-import org.exthmui.yellowpage.misc.Constants;
+import org.simsin.yellowpage.helpers.PhoneNumberTagDbHelper;
+import org.simsin.yellowpage.misc.Constants;
 
 public class PhoneNumberTagProvider extends ContentProvider {
 
     public static final String TAG = "PhoneNumberTagProvider";
 
-    public static final String PROVIDER_NAME = "org.exthmui.yellowpage.PhoneNumberTagProvider";
+    public static final String PROVIDER_NAME = "org.simsin.yellowpage.PhoneNumberTagProvider";
 
     public static final String PROVIDER_PATH_QUERY = "query";
     public static final String PROVIDER_PATH_EDIT = "edit";

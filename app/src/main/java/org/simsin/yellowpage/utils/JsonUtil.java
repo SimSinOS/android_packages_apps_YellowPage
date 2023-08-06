@@ -1,4 +1,4 @@
-package org.exthmui.yellowpage.utils;
+package org.simsin.yellowpage.utils;
 
 import android.util.Log;
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage.models;
+package org.simsin.yellowpage.models;
 
 import android.content.Context;
 import android.text.TextUtils;
 
-import org.exthmui.yellowpage.R;
-import org.exthmui.yellowpage.misc.Constants;
+import org.simsin.yellowpage.R;
+import org.simsin.yellowpage.misc.Constants;
 
 public class PhoneNumberInfo {
     public String number;

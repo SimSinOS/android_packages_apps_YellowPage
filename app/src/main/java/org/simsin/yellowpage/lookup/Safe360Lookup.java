@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage.lookup;
+package org.simsin.yellowpage.lookup;
 
 import android.content.Context;
 
-import org.exthmui.yellowpage.models.PhoneNumberInfo;
+import org.simsin.yellowpage.models.PhoneNumberInfo;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

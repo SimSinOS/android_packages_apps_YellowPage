@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage.utils;
+package org.simsin.yellowpage.utils;
 
 import android.app.Notification;
 import android.app.NotificationChannel;

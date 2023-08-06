@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage.models;
+package org.simsin.yellowpage.models;
 
 import android.text.TextUtils;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage;
+package org.simsin.yellowpage;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -37,8 +37,8 @@ import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
-import org.exthmui.yellowpage.misc.Constants;
-import org.exthmui.yellowpage.services.DatabaseManageService;
+import org.simsin.yellowpage.misc.Constants;
+import org.simsin.yellowpage.services.DatabaseManageService;
 
 public class SettingsActivity extends AppCompatActivity {
 

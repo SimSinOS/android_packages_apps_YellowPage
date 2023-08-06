@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.yellowpage.services;
+package org.simsin.yellowpage.services;
 
 import android.content.SharedPreferences;
 import android.telecom.Call;
@@ -23,14 +23,14 @@ import android.telecom.CallScreeningService;
 import androidx.annotation.NonNull;
 import androidx.preference.PreferenceManager;
 
-import org.exthmui.yellowpage.R;
-import org.exthmui.yellowpage.helpers.PhoneNumberTagDbHelper;
-import org.exthmui.yellowpage.lookup.BaiduLookup;
-import org.exthmui.yellowpage.lookup.PhoneNumberLookup;
-import org.exthmui.yellowpage.lookup.Safe360Lookup;
-import org.exthmui.yellowpage.lookup.SogouLookup;
-import org.exthmui.yellowpage.misc.Constants;
-import org.exthmui.yellowpage.models.PhoneNumberInfo;
+import org.simsin.yellowpage.R;
+import org.simsin.yellowpage.helpers.PhoneNumberTagDbHelper;
+import org.simsin.yellowpage.lookup.BaiduLookup;
+import org.simsin.yellowpage.lookup.PhoneNumberLookup;
+import org.simsin.yellowpage.lookup.Safe360Lookup;
+import org.simsin.yellowpage.lookup.SogouLookup;
+import org.simsin.yellowpage.misc.Constants;
+import org.simsin.yellowpage.models.PhoneNumberInfo;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
@@ -38,9 +38,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class exTHmCallScreeningService extends CallScreeningService {
+public class SimSinCallScreeningService extends CallScreeningService {
 
-    private static final String TAG = "exTHmCallScreeningService";
+    private static final String TAG = "SimSinCallScreeningService";
 
     private PhoneNumberTagDbHelper phoneNumberTagDbHelper;
     private final PhoneNumberLookup[] phoneNumberLookups = {new SogouLookup(), new BaiduLookup(), new Safe360Lookup()};
@@ -49,7 +49,7 @@ public class exTHmCallScreeningService extends CallScreeningService {
 
     private long REPEAT_LIMIT_TIME = 60*20*1000; // 20 minutes
 
-    public exTHmCallScreeningService() {
+    public SimSinCallScreeningService() {
     }
 
     @Override
